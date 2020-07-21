@@ -1,0 +1,26 @@
+{
+  "name": "jmuratov98.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmuratov98/jmuratov98.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmuratov98/jmuratov98.github.io/issues"
+  },
+  "homepage": "https://github.com/jmuratov98/jmuratov98.github.io#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "styled-components": "^5.1.1"
+  }
+}
