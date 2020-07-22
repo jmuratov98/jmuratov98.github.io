@@ -5,26 +5,6 @@ import styled from 'styled-components';
 const Resume = () => {
     return (
         <div className="resume">
-            
-            <section className="hero">
-                <div className="level">
-                    <div className="level-left">
-                        <div className="level-item">
-                            <figure className="image is-128x128">
-                                <img src={logo} alt="" className="is-rounded" />
-                            </figure>
-                        </div>
-                        <div className="level-item">
-                            <div>
-                                <h1 className="title is-1 is-spaced">Joseph Muratov</h1>
-                                <h2 className="subtitle is-5">Software Engineer</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-            </section>
-
-            <br />
 
             <Container>
                 <div className="columns">
@@ -66,15 +46,15 @@ const Resume = () => {
                                     <li>OpenGL</li>
                                     <li>Flask</li>
                                     <li>MySQL</li>
-                                    <li>AutoCAD</li>
-                                    <li>Visio</li>
-                                    <li>Microsoft Office</li>
+                                    <li>React.js</li>
+                                    <li>React Native</li>
                                 </ul>
                             </div>
                             <div className="column">
                                 <ul>
-                                    <li>English</li>
-                                    <li>Russian</li>
+                                    <li>AutoCAD</li>
+                                    <li>Visio</li>
+                                    <li>Microsoft Office</li>
                                 </ul>
                             </div>
                         </div>

@@ -1,15 +1,16 @@
 import React from 'react';
+import Navigation from '../../Components/Navigation';
 
 const Contact = () => {
     return (
         <section className="hero is-fullheight">
+            <Navigation />
             <div className="hero-body">
                 <div className="container has-text-centered">
                     <div className="columns is-8 is-variable ">
                         <div className="column is-two-thirds has-text-left">
-                            <h1 className="title is-1">Contact Us</h1>
-                            <p className="is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi soluta
-                                voluptate facere molestiae consequatur.</p>
+                            <h1 className="title is-1">Contact Me</h1>
+                            <p className="is-size-4">Liked what you see. Send me an email. 😎</p>
                             <div className="social-media">
                                 {/* eslint-disable-next-line */}
                                 <a href="https://www.facebook.com/joseph.muratov/" className="button is-light is-large"><i className="fab fa-facebook-square" aria-hidden="true"></i></a>

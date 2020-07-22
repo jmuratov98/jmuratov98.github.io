@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './index.sass'
 import styled from 'styled-components';
 
 const Navigation = ({
     color,
+    isFixed
 }) => {
+
+    useEffect(() => {
+        const bodyClassList = document.body.classList;
+        isFixed ? bodyClassList.add('has-navbar-fixed-top') : bodyClassList.remove('has-navbar-fixed-top');
+    }, [isFixed])
+
     return (
-        <Navbar className='navbar' role="navigation">
+        <Navbar className={`navbar ${isFixed && 'is-fixed-top'}`} role="navigation">
             <div className="navbar-brand">
                 <span className="navbar-burger" data-target="main-nav">
                     <span />

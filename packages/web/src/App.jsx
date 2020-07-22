@@ -9,12 +9,12 @@ function App() {
     <div className="App">
         <Router>
             <Home path="/" />
-            <Layout path="/">
+            <Layout path="/" isNavbarFixed={true}>
                 <About path="about" />
                 <Projects path="projects" />
                 <Resume path="resume" />
-                <Contact path="contact" />
             </Layout>
+            <Contact path="/contact" />
         </Router>
     </div>
   );

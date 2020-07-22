@@ -5,10 +5,6 @@ import logo from '../../imgs/photograph.jpg';
 const About = () => {
     return (
         <div className="about">
-            <Title className="title">About Me</Title>
-            <div className="is-horizontal-centered py-5">
-                <Image image={logo} />
-            </div>
             <div className="content">
                 <p>
                     I'm a Computer Engineering student from the Grove School of Engineering located at the City College of New York. I love graphics programming, solving problems, 
@@ -26,19 +22,6 @@ const About = () => {
                 <p>You can always contact me <a href="/contact">here</a></p>
             </div>
         </div>
-    );
-}
-
-const Title = styled.h1`
-    display: flex;
-    justify-content: center;
-`
-
-const Image = (props) => {
-    return (
-        <figure className="image is-128x128">
-            <img src={props.image} className='is-rounded' alt="img" />
-        </figure>
     );
 }
 

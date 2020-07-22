@@ -6,7 +6,6 @@ import Item from './Components/Item';
 const Projects = () => {
   return (
     <div className="projects">
-        <Title className="title">My Projects</Title>
         <GridContainer>
             <Item />        
             <Item />        
